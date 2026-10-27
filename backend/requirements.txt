@@ -1,0 +1,23 @@
+fastapi>=0.110
+uvicorn[standard]>=0.27
+python-multipart>=0.0.9
+pydantic>=2.6
+
+# Audio preprocessing
+numpy>=1.26
+soundfile>=0.12
+resampy>=0.4
+webrtcvad-wheels>=2.0.14
+
+# ASR (Whisper local)
+openai-whisper>=20231117
+torch>=2.2
+
+# Translation (MarianMT)
+transformers>=4.41,<5
+sentencepiece>=0.2
+
+# TTS
+gTTS>=2.5
+pyttsx3>=2.90
+
